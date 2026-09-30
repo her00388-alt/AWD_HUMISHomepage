@@ -3,13 +3,15 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 
     div.container {
-    width: 780px;
+    min-width: 390px;
+    max-width: 780px;
     margin: 0 auto;
     background-color: #FFF;
 
         header {
             img {
                 display: block;
+                width: 100%;
             }
         }
 
@@ -144,6 +146,19 @@ body {
         font-size: 10px;
         color: white;
         padding: 10px 0;
+    }
+
+    /* Tablet & up overrides*/
+    @media screen and (width > 500px) {
+        /*breakpoint*/
+
+        border: 10px solid black;
+
+        section.middle {
+            > nav {
+                text-align: right;
+            }
+        }
     }
 
 
