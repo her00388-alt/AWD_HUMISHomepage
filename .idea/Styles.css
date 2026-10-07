@@ -1,3 +1,8 @@
+
+:root {
+    --engDeptGreen: #505A2F;
+}
+
 body {
     background-color: #292827;
     font-family: Arial, Helvetica, sans-serif;
@@ -16,13 +21,14 @@ body {
         }
 
         section.middle {
+            min-height: 500px;
             padding: 10px;
             background-image: url(files/uofu_medallion_rt.gif);
             background-repeat: no-repeat;
             background-position: bottom right;
 
             > nav {
-                text-align:right;
+                text-align:center;
                 font-size: 10px;
                 text-transform: uppercase;
 
@@ -56,9 +62,10 @@ body {
         div.green-box {
             min-height: 400px;
             background-color: #C8CAAF;
-            padding: 10px;
+            padding: 20px 30px;
             margin: 10px 0px 100px;
             border-radius: 10px;
+             }
 
             aside {
 
@@ -73,7 +80,7 @@ body {
 
                         a {
                             display: block;
-                            border-bottom: 2px solid #505A2F;
+                            border-bottom: 2px solid var(--engDeptGreen);
                             padding: 10px 0 10px 15px;
                             color: black;
                             text-decoration: none;
@@ -130,36 +137,69 @@ body {
 
 
                 }
-            }
-
-
-
         }
 
-    }
+        /* Tablet & up overrides*/
+        @media screen and (min-width: 600px) {
+            /*breakpoint*/
+
+            section.middle {
+                > nav {
+                    text-align:right;
+
+                    &.drop-down-menu {
+                        display: none;
+                    }
+                }
+
+                display.green-box {
+                    padding: 20px 30px;
+
+                    aside {
+                        &.left-side {
+                            display:block;
+                            float: left;
+                            width: 33%;
+
+                            nav {
+                                a {
+                                    display: block;
+                                    text-transform: uppercase;
+                                    font-size: 10px;
+                                    color: #000;
+                                    border-bottom: 2px solid #505A2F;
+                                    text-decoration: none;
+                                    padding: 10px 0 10px 10px;
+
+                                    &:hover {
+                                        background-color: #505A2F;
+                                        color: #fff;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    main {
+                        float: right;
+                        width: 60%;
+                    }
+                }
+            }
+        }
+
+        }
 
 }
 
-    footer {
-        background-color: #676E3D;
-        text-align: center;
-        font-size: 10px;
-        color: white;
-        padding: 10px 0;
-    }
+footer {
+    background-color: #676E3D;
+    text-align: center;
+    font-size: 10px;
+    color: white;
+    padding: 10px 0;
+}
 
-    /* Tablet & up overrides*/
-    @media screen and (width > 500px) {
-        /*breakpoint*/
-
-        border: 10px solid black;
-
-        section.middle {
-            > nav {
-                text-align: right;
-            }
-        }
-    }
 
 
 
