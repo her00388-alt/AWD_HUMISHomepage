@@ -180,9 +180,11 @@ body {
 
                     aside {
                         &.left-side {
-                            nav {display: block;
+                            nav {
+                            display: block;
                             float: left;
-                            width: 30%;}
+                            width: 30%;
+                            }
 
                             nav {
                                 a {
@@ -226,10 +228,10 @@ body {
                 main {
                     display:block;
                     float: right;
+                    width: 60%;
 
-
-                    img{
-                        width: 100%;
+                    /*img{*/
+                    /*    width: 100%;*/
                     }
                     /*width: 60%;*/
                 }
@@ -239,7 +241,6 @@ body {
 
         }
 
-}
 
 footer {
     background-color: #676E3D;
