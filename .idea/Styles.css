@@ -76,81 +76,6 @@ body {
             }
         }
 
-        /*    aside {*/
-        /*        &.left-side {*/
-
-
-        /*            nav {*/
-        /*                display: none;*/
-        /*            }*/
-        /*            float: left;*/
-        /*            Width: 30%;*/
-        /*            min-height: 500px;*/
-        /*            position: relative;*/
-
-        /*            nav {*/
-        /*                padding: 0 20px;*/
-
-        /*                a {*/
-        /*                    display: block;*/
-        /*                    border-bottom: 2px solid var(--engDeptGreen);*/
-        /*                    padding: 10px 0 10px 15px;*/
-        /*                    color: black;*/
-        /*                    text-decoration: none;*/
-        /*                    text-transform: uppercase;*/
-        /*                    font-size: 10px;*/
-
-
-        /*                    &:hover {*/
-        /*                        color: white;*/
-        /*                        background-color: #505A2F;*/
-
-        /*                    }*/
-        /*                }*/
-        /*            }*/
-
-        /*            div.links {*/
-        /*                margin-top: 40px;*/
-        /*                position: absolute;*/
-        /*                bottom: 0;*/
-        /*                left: 0;*/
-        /*            }*/
-        /*        }*/
-
-        /*        &.right {*/
-        /*            float: right;*/
-        /*            width:60%;*/
-        /*            background-color: white;*/
-        /*            padding: 10px;*/
-
-        /*                img {*/
-        /*                    width: 100%;*/
-        /*                }*/
-
-        /*                h1 {*/
-        /*                    color: #505A2F;*/
-        /*                    border-bottom: 2px dashed #A12D37;*/
-        /*                    font-size: 16px;*/
-        /*                    text-transform: uppercase;*/
-        /*                    font-weight: normal;*/
-        /*                }*/
-
-        /*                p {*/
-        /*                    font-size: 12px;*/
-
-        /*                    &.link {*/
-        /*                        text-align: right;*/
-
-        /*                            a {*/
-        /*                                color: red;*/
-        /*                            }*/
-        /*                    }*/
-        /*                }*/
-
-
-        /*        }*/
-        /*}*/
-
         main {
             background-color: #FFF;
             padding: 10px;
@@ -203,25 +128,8 @@ body {
                                 }
                             }
 
-                            /*&.right {*/
-                            /*    display: block;*/
-                            /*    float: right;*/
-                            /*    width: 30%;*/
-                            /*}*/
                         }
 
-                        /*main {*/
-                        /*    display:block;*/
-                        /*    float: right;*/
-
-
-                        /*    img{*/
-                        /*        display: block;*/
-                        /*        float: right;*/
-                        /*        width: 60%;*/
-                        /*    }*/
-                        /*    !*width: 60%;*!*/
-                        /*}*/
                     }
 
                 }
@@ -230,10 +138,6 @@ body {
                     float: right;
                     width: 60%;
 
-                    /*img{*/
-                    /*    width: 100%;*/
-                    }
-                    /*width: 60%;*/
                 }
 
             }
@@ -248,8 +152,6 @@ footer {
     font-size: 10px;
     color: white;
     padding: 10px 0;
-}
-
 
 
 
