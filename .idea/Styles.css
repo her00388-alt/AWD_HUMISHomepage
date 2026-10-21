@@ -90,10 +90,9 @@ body {
         /* Tablet & up overrides*/
         @media screen and (width >= 600px) {
             /*breakpoint*/
-
             section.middle {
                 > nav {
-                    text-align:right;
+                    text-align: right;
 
                     &.drop-down-menu {
                         display: none;
@@ -106,9 +105,9 @@ body {
                     aside {
                         &.left-side {
                             nav {
-                            display: block;
-                            float: left;
-                            width: 30%;
+                                display: block;
+                                float: left;
+                                width: 30%;
                             }
 
                             nav {
@@ -133,8 +132,9 @@ body {
                     }
 
                 }
+
                 main {
-                    display:block;
+                    display: block;
                     float: right;
                     width: 60%;
 
@@ -143,15 +143,18 @@ body {
             }
         }
 
-        }
+    }
 
 
-footer {
-    background-color: #676E3D;
-    text-align: center;
-    font-size: 10px;
-    color: white;
-    padding: 10px 0;
+    footer {
+        background-color: #676E3D;
+        text-align: center;
+        font-size: 10px;
+        color: white;
+        padding: 10px 0;
+    }
+}
+
 
 
 
