@@ -3,7 +3,6 @@ body {
 }
 
 
-main {
     p {
         text-align: justify;
     }
@@ -38,4 +37,3 @@ main {
     h6 {
         font-size: 0.875rem;
     }
-}
