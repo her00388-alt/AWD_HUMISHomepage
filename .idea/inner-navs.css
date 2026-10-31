@@ -1,0 +1,52 @@
+body {
+
+    section.container {
+
+        section.middle {
+
+            section.inner {
+
+                main {
+
+
+                    nav {
+                        display: flex;
+                        flex-direction: column;
+                        width: 30%;
+                        height: 95%;
+                        font-size: 12px;
+                        border-right: 2px dashed dimgray;
+
+                        a {
+                            color: #000;
+                            padding-bottom: 5px;
+                            text-size: 9px;
+                            text-decoration: none;
+                        }
+
+                    }
+
+                    .graduate-students-inner-nav {
+                        width: 30%;
+                        height: 92%;
+                        border-right: 2px dashed dimgray;
+                    }
+
+                    .pros-nav {
+                        height: 13%;
+                        width: 100%;
+                        border: none;
+
+                    }
+
+                    .cur-nav {
+                        width: 100%;
+                        border: none;
+                    }
+
+                }
+            }
+
+        }
+    }
+}
